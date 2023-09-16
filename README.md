@@ -1,17 +1,14 @@
 # RxReader
 Empowering patients with clear and accurate prescription (Rx) information.
 
-To test the API 
+To test the API you can use postman its hosted on 172.178.105.199 , Make a post call with endpoint as http://172.178.105.199:5000/prescriptiondetails and in body click form data type image as key and select prescription image as file (currently model works only for typed prescription not handwritten)
 
-![Alt text](image.png)
 
-Curl Command
+Curl Command:
 
-curl --location 'http://127.0.0.1:5000/prescriptiondetails' \
+curl --location 'http://172.178.105.199:5000/prescriptiondetails' \
 --form 'image=@"/C:/Users/abhinagupta/Downloads/Testdata/IMG-6146Dup.jpg"
 
-
-replace 127.0.0.1 with 172.178.105.199(deployed on remote)
 
 
 
